@@ -30,7 +30,7 @@ export default Ember.Controller.extend({
         cancel() {
             this.transitionToRoute('friends')
 
-            return true;
+            return false;
         }
     }
 });
