@@ -6,6 +6,9 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('bower_components/picnic/releases/plugins.min.css');
+  app.import('bower_components/picnic/releases/picnic.min.css');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
