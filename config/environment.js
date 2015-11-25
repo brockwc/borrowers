@@ -14,6 +14,9 @@ module.exports = function(environment) {
     },
 
     APP: {
+      contentSecurityPolicy: {
+        'connect-src': "'self' http://api.ember-cli-101.com",
+      }
       // Here you can pass flags/options to your application instance
       // when it is created
     }
